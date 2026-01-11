@@ -1,0 +1,1 @@
+#Change the solution of the previous challenge to ignore whitespace and letter case when checking if a string is a palindrome.

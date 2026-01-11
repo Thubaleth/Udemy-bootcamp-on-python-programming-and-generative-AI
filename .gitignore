@@ -1,0 +1,42 @@
+# =====================
+# Virtual Environments
+# =====================
+venv/
+.venv/
+env/
+ENV/
+
+# =====================
+# Python cache / compiled files
+# =====================
+__pycache__/
+*.py[cod]
+*$py.class
+
+# =====================
+# Environment variables / secrets
+# =====================
+.env
+
+# =====================
+# Jupyter Notebook
+# =====================
+.ipynb_checkpoints/
+
+# =====================
+# IDE / Editor files
+# =====================
+.vscode/
+.idea/
+
+# =====================
+# OS-specific files
+# =====================
+.DS_Store
+Thumbs.db
+
+# =====================
+# Logs & temporary files
+# =====================
+*.log
+*.tmp

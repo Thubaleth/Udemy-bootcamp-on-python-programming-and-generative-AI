@@ -1,0 +1,1 @@
+#Write a Python script that counts the number of occurrences of a substring in a given string, ignoring letter case.

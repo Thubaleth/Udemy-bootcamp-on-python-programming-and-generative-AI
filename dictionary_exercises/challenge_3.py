@@ -10,7 +10,7 @@ words = ['Python', 'Java', 'C++', 'Golang', 'Solidity', 'Bash']
 
 
 
-words_and_length = dict()
+words_and_length = {}
 
 for w in words:
     words_and_length[w] = len(w)

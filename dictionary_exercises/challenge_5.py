@@ -6,4 +6,6 @@ d1 = {'x': 5, 'a': 3, 'c': 2, 'b': 0}
 A dict representation means viewing or printing the dict.
 
 """
-
+d1 = {'x': 5, 'a': 3, 'c': 2, 'b': 0}
+for key in sorted(d1.keys()):
+    print(f'{key} -> {d1[key]}')

@@ -14,7 +14,17 @@ a ---> 3
 
 i ---> 1
 """
+chars = list('mamma mia mm')
+count = {}
+for ch in chars:
 
-l1  = list('mamma mia mm')
+    if ch in count:
+        count[ch] += 1
+    else:
+        count[ch] = 1
 
+
+for key,value in count.items():
+    print(f'{key} ----> {value}')
+        
 

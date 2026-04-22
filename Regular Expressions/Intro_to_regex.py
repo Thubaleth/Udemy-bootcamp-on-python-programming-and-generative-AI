@@ -20,3 +20,12 @@ post = 'Exploring the future #artificial intellegence and #machine langauge! #AI
 hashtags = re.findall(r'#\w+',post)
 print(hashtags)
 
+#Using anchors and abd grouping for presise matching
+#^ - matches the start of a string
+#$ - sy,bol matches the end of a string
+
+command = '/execute data-analysis ' #Example of a command
+if re.match(r'/execute\s\w+(-w+)*$',command):
+    print("Valid command")
+else:
+    print("Invalid command")

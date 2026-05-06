@@ -6,4 +6,5 @@ Example:
 Input: "green-red-yellow-black-white"
 
 Output: "black-green-red-white-yellow"
+
 """

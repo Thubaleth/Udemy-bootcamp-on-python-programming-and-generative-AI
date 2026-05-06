@@ -10,3 +10,17 @@ else: #runs with try
 finally:  #always runs
     print("Goodbye")
     print("----------------------------------------------------------------------------------------------")
+
+
+
+    a = 2
+b = '0'
+try:
+    c = a / b
+except Exception as e: #this catches the error
+    print('This is the except block of code')
+else:
+    print('This is the else block of code')
+finally:
+    print('This is the finally block of code')
+print('Continue script execution...')

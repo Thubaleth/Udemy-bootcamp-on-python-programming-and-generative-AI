@@ -13,5 +13,5 @@ with open('model_logs.csv','r') as csvfile:
     
     peak_day = max(token_data, key = token_data.get) 
     
-    print(f'Model usage: {peak_day}, Token Generated: {token_data[peak_day]}' ) #Store the max generated token
+    print(f'Model usage:{peak_day}, Token Generated: {token_data[peak_day]}' ) #Store the max
 

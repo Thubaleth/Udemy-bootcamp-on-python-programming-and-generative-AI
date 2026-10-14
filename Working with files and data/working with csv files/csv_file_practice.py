@@ -2,7 +2,7 @@ import csv
 
 with open('model_logs.csv','r') as csvfile:
     reader = csv.reader(csvfile)#reads each row as a list
-    next(reader)
+    next(reader)#skips the 1st line before loop, usually header
     token_data = {}
 
     for row in reader:
